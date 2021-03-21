@@ -1,7 +1,7 @@
 def top(v,vis,stack,dep):
-    print(stack,'stack')
-    print(vis,'vis')
-    print(v,'v',dep)
+    # print(stack,'stack')
+    # print(vis,'vis')
+    # print(v,'v',dep)
     vis[str(v)]=True
     
     for i in g[v]:
@@ -33,10 +33,10 @@ for i in inp:
             g[j]=set()
 stack=[]
 vis={}
-print(g)
+#print(g)
 for i in g.keys():
     if i not in vis:
         top(i,vis,stack,0)
-print(*stack[::-1])
+#print(*stack[::-1])
 for i in range(len(stack)-1,-1,-1):
     print(stack[i],end="")
