@@ -6,3 +6,4 @@ while n>1:
         n//=i
         print(n,i)
     i+=1
+print(i)
