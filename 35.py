@@ -9,4 +9,4 @@ for i in range(2,n):
         prime.add(i)
 
 for i in prime:
-    
+    pass
